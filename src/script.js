@@ -1,17 +1,6 @@
-const addLongNameToElement = (array, string) => {
+navigator.mediaDevices.getUserMedia({ audio: true }).then(stream => {    
 
-    if (array.includes(string, 1)) {
-        const currentIndex = array.indexOf("name") + 1;
-        const textValue = array.slice(currentIndex, array.length).join(" ");
-
-        return textValue.charAt(0).toUpperCase() + textValue.slice(1);
-    }
-}
-
-navigator.mediaDevices.getUserMedia({ audio: true }).then(stream => {
-    
-
-    // Remove this if you will be integrating with your mobile phone.
+    // Remove this IF STATEMENT if you will be integrating with your mobile phone.
     if (!MediaRecorder.isTypeSupported('audio/webm')) { 
         return alert('Browser not supported.');
     }
