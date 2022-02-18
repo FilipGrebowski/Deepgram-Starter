@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Website Builder</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .info-banner {
+            height: 40px;
+            width: 100%;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+        }
+
+        #main {
+            margin: 20px;
+            height: calc(100vh - 80px);
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="info-banner">
+        <p id="status">Establishing a connection...</p>
+    </div>
+
+    <div id="main">
+        <h1 id="text"></h1>
+    </div>
+</body>
+</html>
