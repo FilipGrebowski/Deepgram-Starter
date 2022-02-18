@@ -4,7 +4,7 @@ Hey all 👋
 
 If you are here, then you probably got inspired by the amazing work that Deepgram has done with it's Speech-to-Text service.
 
-Here is a simple guide how to get started with this project and have yourself speak into you browser and see your voice turn into text!
+Here is a simple guide how to get started with this project and have yourself speaking into you browser in no time!
 
 If for some reason you found this respository with no context, watch both of these videos in order 😉
 
