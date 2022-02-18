@@ -20,8 +20,8 @@ module.exports = merge(
             port: portFinderSync.getPort(8080),
             open: true,
             https: {
-                key: './192.168.1.77+5-key.pem',
-                cert: './192.168.1.77+5.pem'
+                key: 'YOUR_SSL_CERT_KEY',
+                cert: 'YOUR_SSL_CERT'
             },
             allowedHosts: 'all',
             hot: true,
