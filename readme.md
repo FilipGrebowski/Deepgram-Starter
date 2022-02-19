@@ -6,7 +6,7 @@ If you are here, then you probably got inspired by the amazing work that Deepgra
 
 Here is a simple guide how to get started with this project and have yourself speaking into you browser in no time!
 
-If for some reason you found this repository with no context, watch both of these videos in order 😉
+If for some reason you found this repository with no context, watch both of these videos in order, and you should be up to date. 😉
 
 <a href="https://youtu.be/rhFlRPz-AxQ"> <h3>Coding a website with my voice - Part 1</h3> </a>
 <img src="https://i.imgur.com/7xHE6gM.jpg" width="360">
